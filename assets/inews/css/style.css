@@ -572,7 +572,9 @@ article:hover figure a:before,
 .header-mid {
 	background-color: #fff
 }
-
+.social--redius.social--color li i{
+	margin-top: 8px;
+}
 .logo {
 	margin: 8px 0;
 	display: flex;
@@ -581,7 +583,8 @@ article:hover figure a:before,
 }
 
 .logo img {
-	width: 230px
+	width: 370px;
+	margin: auto;
 }
 
 .logo a {
@@ -2315,7 +2318,7 @@ div.bhoechie-tab .weather-temp-wrap:not(.active) {
 
 .social-media li .pint:hover {
 	background-color: #cb2028;
-	color: #fff
+	color: #fff;
 }
 
 .home_six .social-media li .pint,
@@ -2414,7 +2417,13 @@ div.bhoechie-tab .weather-temp-wrap:not(.active) {
 .nav>li>a:focus,
 .nav>li>a:hover {
 	text-decoration: none;
-	background-color: #fff
+	background-color: #fff;
+	color: #eb0254 !important;
+}
+
+nav.navbar.bootsnav ul.nav li.active > a {
+	text-decoration: none;
+	color: #eb0254 !important;
 }
 
 .nav-tabs>li>a:hover {
