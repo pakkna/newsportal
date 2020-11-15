@@ -25,7 +25,6 @@
                                     <p class="brief">
                                         <p><span class="style-scope yt-formatted-string" dir="auto"><?php echo
                                                                                                             excerpt($row->content, 400);
-
                                                                                                         ?>&hellip;</p>
                                 </div>
                                 <div class="category-meta">
